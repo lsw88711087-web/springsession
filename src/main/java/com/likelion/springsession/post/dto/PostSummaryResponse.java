@@ -11,6 +11,6 @@ public class PostSummaryResponse {
 
     private final Long id;
     private final String title;
+    private final String authorNickname;    // ← 추가
     private final LocalDateTime createdAt;
-
 }
