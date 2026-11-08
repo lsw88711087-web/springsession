@@ -34,6 +34,7 @@ public class SecurityConfig {
                                 "/api/auth/signup",
                                 "/api/auth/login",
                                 "/api/auth/reissue",
+                                "/api/health",
                                 "/error"
                         ).permitAll()
                         .requestMatchers(
