@@ -10,6 +10,6 @@ public class HealthController {
 
     @GetMapping("/api/health")
     public HealthResponse health() {
-        return new HealthResponse("UP", "멋사 스프링 서버가 떴습니다!");
+        return new HealthResponse("UP", "멋사 스프링 서버가 자동배포됩니당");
     }
 }
